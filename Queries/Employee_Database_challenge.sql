@@ -23,16 +23,6 @@ ORDER BY e.emp_no;
 retirement_titles
 
 -- Use Dictinct with Orderby to remove duplicate rows
-SELECT DISTINCT ON (______) _____,
-______,
-______,
-______
-
-INTO nameyourtable
-FROM _______
-ORDER BY _____, _____ DESC;
-
--- Use Dictinct with Orderby to remove duplicate rows
 SELECT DISTINCT ON (emp_no) emp_no,
 first_name,
 last_name,
